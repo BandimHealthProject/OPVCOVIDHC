@@ -1,0 +1,5 @@
+_partition,_aspect,_key,_type,_value
+FormType,default,FormType.formType,string,SURVEY
+SurveyUtil,default,SurveyUtil.formId,string,OPVCOVIDHC
+Table,default,defaultViewType,string,SPREADSHEET
+Table,default,displayName,object,"{""text"":{""english"":""OPVCOVID: Health center follow-up"",""default"":""OPVCOVID: Seguimento do centro de saúde""}}"
