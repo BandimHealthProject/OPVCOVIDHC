@@ -444,7 +444,7 @@
       },
       {
         "type": "text",
-        "name": "c_TEST2QOUT",
+        "name": "C_TEST2QOUT",
         "_row_num": 58
       },
       {
@@ -836,134 +836,116 @@
       {
         "name": "C_DATE",
         "type": "adate",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 2
       },
       {
         "name": "C_NAME",
         "type": "text",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 3
       },
       {
         "name": "C_NUMEST",
         "type": "integer",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 4
       },
       {
         "name": "C_IDENT",
         "type": "select_one",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 6
       },
       {
         "name": "C_IDENTDATE",
         "type": "adate",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 7
       },
       {
         "name": "C_CERTEZA",
         "type": "select_one",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 8
       },
       {
         "name": "C_SYMPTOMS",
         "type": "select_multiple",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 10
       },
       {
         "name": "C_SYMPTOUTR",
         "type": "select_one",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 11
       },
       {
         "name": "C_SYMPTQUAIS",
         "type": "text",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 12
       },
       {
         "name": "C_TEST",
         "type": "select_one",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 15
       },
       {
         "name": "C_TEST1Q",
         "type": "select_one",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 16
       },
       {
-        "name": "C_TEST1QOUT",
+        "name": "c_TEST1QOUT",
         "type": "text",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 17
       },
       {
         "name": "C_TEST1RESC",
         "type": "select_one",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 18
       },
       {
         "name": "C_TEST1RES",
         "type": "text",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 19
       },
       {
         "name": "C_TEST2",
         "type": "select_one",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 20
       },
       {
         "name": "C_TEST2Q",
         "type": "select_one",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 21
       },
       {
         "name": "C_TEST2QOUT",
         "type": "text",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "_row_num": 22
-      },
-      {
-        "name": "C_TEST2RES",
-        "type": "text",
-        "isSessionVariable": true,
-        "_row_num": 23
       },
       {
         "name": "C_TEST2RESC",
         "type": "select_one",
-        "isSessionVariable": true,
+        "isSessionVariable": false,
+        "_row_num": 23
+      },
+      {
+        "name": "C_TEST2RES",
+        "type": "text",
+        "isSessionVariable": false,
         "_row_num": 24
-      },
-      {
-        "name": "C_DIAGN1",
-        "type": "text",
-        "isSessionVariable": true,
-        "_row_num": 26
-      },
-      {
-        "name": "C_DIAGN2",
-        "type": "text",
-        "isSessionVariable": true,
-        "_row_num": 27
-      },
-      {
-        "name": "C_DIAGN3",
-        "type": "text",
-        "isSessionVariable": true,
-        "_row_num": 28
       }
     ]
   },
@@ -1446,7 +1428,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_DATE"
       },
       "C_NAME": {
@@ -1461,7 +1443,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_NAME"
       },
       "C_NUMEST": {
@@ -1476,7 +1458,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_NUMEST"
       },
       "C_IDENT": {
@@ -1492,7 +1474,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_IDENT"
       },
       "C_IDENTDATE": {
@@ -1512,7 +1494,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_IDENTDATE"
       },
       "C_CERTEZA": {
@@ -1528,7 +1510,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_CERTEZA"
       },
       "C_SYMPTOMS": {
@@ -1548,7 +1530,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_SYMPTOMS"
       },
       "C_SYMPTOUTR": {
@@ -1564,7 +1546,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_SYMPTOUTR"
       },
       "C_SYMPTQUAIS": {
@@ -1579,7 +1561,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_SYMPTQUAIS"
       },
       "C_TEST": {
@@ -1595,7 +1577,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST"
       },
       "C_TEST1Q": {
@@ -1611,19 +1593,23 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST1Q"
       },
-      "C_TEST1QOUT": {
+      "c_TEST1QOUT": {
         "type": "string",
         "_defn": [
+          {
+            "_row_num": 40,
+            "section_name": "survey"
+          },
           {
             "_row_num": 17,
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
-        "elementKey": "C_TEST1QOUT"
+        "isSessionVariable": false,
+        "elementKey": "c_TEST1QOUT"
       },
       "C_TEST1RESC": {
         "type": "string",
@@ -1638,7 +1624,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST1RESC"
       },
       "C_TEST1RES": {
@@ -1653,7 +1639,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST1RES"
       },
       "C_TEST2": {
@@ -1669,7 +1655,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST2"
       },
       "C_TEST2Q": {
@@ -1685,34 +1671,23 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST2Q"
       },
       "C_TEST2QOUT": {
         "type": "string",
         "_defn": [
           {
+            "_row_num": 58,
+            "section_name": "survey"
+          },
+          {
             "_row_num": 22,
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST2QOUT"
-      },
-      "C_TEST2RES": {
-        "type": "string",
-        "_defn": [
-          {
-            "_row_num": 63,
-            "section_name": "survey"
-          },
-          {
-            "_row_num": 23,
-            "section_name": "model"
-          }
-        ],
-        "isSessionVariable": true,
-        "elementKey": "C_TEST2RES"
       },
       "C_TEST2RESC": {
         "type": "string",
@@ -1723,65 +1698,27 @@
             "section_name": "survey"
           },
           {
+            "_row_num": 23,
+            "section_name": "model"
+          }
+        ],
+        "isSessionVariable": false,
+        "elementKey": "C_TEST2RESC"
+      },
+      "C_TEST2RES": {
+        "type": "string",
+        "_defn": [
+          {
+            "_row_num": 63,
+            "section_name": "survey"
+          },
+          {
             "_row_num": 24,
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
-        "elementKey": "C_TEST2RESC"
-      },
-      "C_DIAGN1": {
-        "type": "string",
-        "_defn": [
-          {
-            "_row_num": 26,
-            "section_name": "model"
-          }
-        ],
-        "isSessionVariable": true,
-        "elementKey": "C_DIAGN1"
-      },
-      "C_DIAGN2": {
-        "type": "string",
-        "_defn": [
-          {
-            "_row_num": 27,
-            "section_name": "model"
-          }
-        ],
-        "isSessionVariable": true,
-        "elementKey": "C_DIAGN2"
-      },
-      "C_DIAGN3": {
-        "type": "string",
-        "_defn": [
-          {
-            "_row_num": 28,
-            "section_name": "model"
-          }
-        ],
-        "isSessionVariable": true,
-        "elementKey": "C_DIAGN3"
-      },
-      "c_TEST1QOUT": {
-        "_defn": [
-          {
-            "_row_num": 40,
-            "section_name": "survey"
-          }
-        ],
-        "type": "string",
-        "elementKey": "c_TEST1QOUT"
-      },
-      "c_TEST2QOUT": {
-        "_defn": [
-          {
-            "_row_num": 58,
-            "section_name": "survey"
-          }
-        ],
-        "type": "string",
-        "elementKey": "c_TEST2QOUT"
+        "isSessionVariable": false,
+        "elementKey": "C_TEST2RES"
       }
     },
     "section_names": [
@@ -2262,7 +2199,7 @@
           },
           {
             "type": "text",
-            "name": "c_TEST2QOUT",
+            "name": "C_TEST2QOUT",
             "_row_num": 58,
             "__rowNum__": 57,
             "_token_type": "prompt",
@@ -2648,7 +2585,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_DATE",
         "elementName": "C_DATE",
         "elementSet": "data",
@@ -2666,7 +2603,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_NAME",
         "elementName": "C_NAME",
         "elementSet": "data",
@@ -2684,7 +2621,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_NUMEST",
         "elementName": "C_NUMEST",
         "elementSet": "data",
@@ -2703,7 +2640,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_IDENT",
         "elementName": "C_IDENT",
         "elementSet": "data",
@@ -2726,7 +2663,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_IDENTDATE",
         "elementName": "C_IDENTDATE",
         "elementSet": "data",
@@ -2745,7 +2682,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_CERTEZA",
         "elementName": "C_CERTEZA",
         "elementSet": "data",
@@ -2759,7 +2696,6 @@
           "elementName": "items",
           "elementSet": "data",
           "elementPath": "C_SYMPTOMS.items",
-          "isSessionVariable": true,
           "notUnitOfRetention": true
         },
         "valuesList": "Symptoms",
@@ -2773,7 +2709,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_SYMPTOMS",
         "elementName": "C_SYMPTOMS",
         "elementSet": "data",
@@ -2795,7 +2731,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_SYMPTOUTR",
         "elementName": "C_SYMPTOUTR",
         "elementSet": "data",
@@ -2813,7 +2749,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_SYMPTQUAIS",
         "elementName": "C_SYMPTQUAIS",
         "elementSet": "data",
@@ -2832,7 +2768,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST",
         "elementName": "C_TEST",
         "elementSet": "data",
@@ -2851,25 +2787,29 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST1Q",
         "elementName": "C_TEST1Q",
         "elementSet": "data",
         "elementPath": "C_TEST1Q"
       },
-      "C_TEST1QOUT": {
+      "c_TEST1QOUT": {
         "type": "string",
         "_defn": [
+          {
+            "_row_num": 40,
+            "section_name": "survey"
+          },
           {
             "_row_num": 17,
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
-        "elementKey": "C_TEST1QOUT",
-        "elementName": "C_TEST1QOUT",
+        "isSessionVariable": false,
+        "elementKey": "c_TEST1QOUT",
+        "elementName": "c_TEST1QOUT",
         "elementSet": "data",
-        "elementPath": "C_TEST1QOUT"
+        "elementPath": "c_TEST1QOUT"
       },
       "C_TEST1RESC": {
         "type": "string",
@@ -2884,7 +2824,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST1RESC",
         "elementName": "C_TEST1RESC",
         "elementSet": "data",
@@ -2902,7 +2842,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST1RES",
         "elementName": "C_TEST1RES",
         "elementSet": "data",
@@ -2921,7 +2861,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST2",
         "elementName": "C_TEST2",
         "elementSet": "data",
@@ -2940,7 +2880,7 @@
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST2Q",
         "elementName": "C_TEST2Q",
         "elementSet": "data",
@@ -2950,33 +2890,19 @@
         "type": "string",
         "_defn": [
           {
+            "_row_num": 58,
+            "section_name": "survey"
+          },
+          {
             "_row_num": 22,
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST2QOUT",
         "elementName": "C_TEST2QOUT",
         "elementSet": "data",
         "elementPath": "C_TEST2QOUT"
-      },
-      "C_TEST2RES": {
-        "type": "string",
-        "_defn": [
-          {
-            "_row_num": 63,
-            "section_name": "survey"
-          },
-          {
-            "_row_num": 23,
-            "section_name": "model"
-          }
-        ],
-        "isSessionVariable": true,
-        "elementKey": "C_TEST2RES",
-        "elementName": "C_TEST2RES",
-        "elementSet": "data",
-        "elementPath": "C_TEST2RES"
       },
       "C_TEST2RESC": {
         "type": "string",
@@ -2987,83 +2913,33 @@
             "section_name": "survey"
           },
           {
-            "_row_num": 24,
+            "_row_num": 23,
             "section_name": "model"
           }
         ],
-        "isSessionVariable": true,
+        "isSessionVariable": false,
         "elementKey": "C_TEST2RESC",
         "elementName": "C_TEST2RESC",
         "elementSet": "data",
         "elementPath": "C_TEST2RESC"
       },
-      "C_DIAGN1": {
+      "C_TEST2RES": {
         "type": "string",
         "_defn": [
           {
-            "_row_num": 26,
-            "section_name": "model"
-          }
-        ],
-        "isSessionVariable": true,
-        "elementKey": "C_DIAGN1",
-        "elementName": "C_DIAGN1",
-        "elementSet": "data",
-        "elementPath": "C_DIAGN1"
-      },
-      "C_DIAGN2": {
-        "type": "string",
-        "_defn": [
-          {
-            "_row_num": 27,
-            "section_name": "model"
-          }
-        ],
-        "isSessionVariable": true,
-        "elementKey": "C_DIAGN2",
-        "elementName": "C_DIAGN2",
-        "elementSet": "data",
-        "elementPath": "C_DIAGN2"
-      },
-      "C_DIAGN3": {
-        "type": "string",
-        "_defn": [
-          {
-            "_row_num": 28,
-            "section_name": "model"
-          }
-        ],
-        "isSessionVariable": true,
-        "elementKey": "C_DIAGN3",
-        "elementName": "C_DIAGN3",
-        "elementSet": "data",
-        "elementPath": "C_DIAGN3"
-      },
-      "c_TEST1QOUT": {
-        "_defn": [
-          {
-            "_row_num": 40,
+            "_row_num": 63,
             "section_name": "survey"
-          }
-        ],
-        "type": "string",
-        "elementKey": "c_TEST1QOUT",
-        "elementName": "c_TEST1QOUT",
-        "elementSet": "data",
-        "elementPath": "c_TEST1QOUT"
-      },
-      "c_TEST2QOUT": {
-        "_defn": [
+          },
           {
-            "_row_num": 58,
-            "section_name": "survey"
+            "_row_num": 24,
+            "section_name": "model"
           }
         ],
-        "type": "string",
-        "elementKey": "c_TEST2QOUT",
-        "elementName": "c_TEST2QOUT",
+        "isSessionVariable": false,
+        "elementKey": "C_TEST2RES",
+        "elementName": "C_TEST2RES",
         "elementSet": "data",
-        "elementPath": "c_TEST2QOUT"
+        "elementPath": "C_TEST2RES"
       },
       "C_SYMPTOMS_items": {
         "type": "string",
@@ -3071,7 +2947,6 @@
         "elementName": "items",
         "elementSet": "data",
         "elementPath": "C_SYMPTOMS.items",
-        "isSessionVariable": true,
         "notUnitOfRetention": true
       },
       "_id": {
@@ -3188,6 +3063,76 @@
       }
     },
     "properties": [
+      {
+        "_partition": "Column",
+        "_aspect": "C_CERTEZA",
+        "_key": "displayChoicesList",
+        "_type": "object",
+        "_value": "[{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Yes\",\"default\":\"Sim\"}}},\"_row_num\":2},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"No\",\"default\":\"Não\"}}},\"_row_num\":3},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Don't know\",\"default\":\"Não sabe\"}}},\"_row_num\":4},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"9\",\"display\":{\"title\":{\"text\":{\"english\":\"Missing information\",\"default\":\"Falta informação\"}}},\"_row_num\":5}]"
+      },
+      {
+        "_partition": "Column",
+        "_aspect": "C_IDENT",
+        "_key": "displayChoicesList",
+        "_type": "object",
+        "_value": "[{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Yes\",\"default\":\"Sim\"}}},\"_row_num\":2},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"No\",\"default\":\"Não\"}}},\"_row_num\":3},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Don't know\",\"default\":\"Não sabe\"}}},\"_row_num\":4},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"9\",\"display\":{\"title\":{\"text\":{\"english\":\"Missing information\",\"default\":\"Falta informação\"}}},\"_row_num\":5}]"
+      },
+      {
+        "_partition": "Column",
+        "_aspect": "C_SYMPTOMS",
+        "_key": "displayChoicesList",
+        "_type": "object",
+        "_value": "[{\"choice_list_name\":\"Symptoms\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Febre\",\"default\":\"Febre\"}}},\"_row_num\":19},{\"choice_list_name\":\"Symptoms\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"Tosse\",\"default\":\"Tosse\"}}},\"_row_num\":20},{\"choice_list_name\":\"Symptoms\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Falta de ar\",\"default\":\"Falta de ar\"}}},\"_row_num\":21},{\"choice_list_name\":\"Symptoms\",\"data_value\":\"4\",\"display\":{\"title\":{\"text\":{\"english\":\"Rinorreia\",\"default\":\"Rinorreia\"}}},\"_row_num\":22},{\"choice_list_name\":\"Symptoms\",\"data_value\":\"5\",\"display\":{\"title\":{\"text\":{\"english\":\"Dor de garganta\",\"default\":\"Dor de garganta\"}}},\"_row_num\":23},{\"choice_list_name\":\"Symptoms\",\"data_value\":\"6\",\"display\":{\"title\":{\"text\":{\"english\":\"Diarreia\",\"default\":\"Diarreia\"}}},\"_row_num\":24},{\"choice_list_name\":\"Symptoms\",\"data_value\":\"7\",\"display\":{\"title\":{\"text\":{\"english\":\"Vomito\",\"default\":\"Vomito\"}}},\"_row_num\":25},{\"choice_list_name\":\"Symptoms\",\"data_value\":\"8\",\"display\":{\"title\":{\"text\":{\"english\":\"Convulsao\",\"default\":\"Convulsao\"}}},\"_row_num\":26},{\"choice_list_name\":\"Symptoms\",\"data_value\":\"9\",\"display\":{\"title\":{\"text\":{\"english\":\"xx\",\"default\":\"xx\"}}},\"_row_num\":27},{\"choice_list_name\":\"Symptoms\",\"data_value\":\"10\",\"display\":{\"title\":{\"text\":{\"english\":\"xx\",\"default\":\"xx\"}}},\"_row_num\":28},{\"choice_list_name\":\"Symptoms\",\"data_value\":\"11\",\"display\":{\"title\":{\"text\":{\"english\":\"xx\",\"default\":\"xx\"}}},\"_row_num\":29}]"
+      },
+      {
+        "_partition": "Column",
+        "_aspect": "C_SYMPTOUTR",
+        "_key": "displayChoicesList",
+        "_type": "object",
+        "_value": "[{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Yes\",\"default\":\"Sim\"}}},\"_row_num\":2},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"No\",\"default\":\"Não\"}}},\"_row_num\":3},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Don't know\",\"default\":\"Não sabe\"}}},\"_row_num\":4},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"9\",\"display\":{\"title\":{\"text\":{\"english\":\"Missing information\",\"default\":\"Falta informação\"}}},\"_row_num\":5}]"
+      },
+      {
+        "_partition": "Column",
+        "_aspect": "C_TEST",
+        "_key": "displayChoicesList",
+        "_type": "object",
+        "_value": "[{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Yes\",\"default\":\"Sim\"}}},\"_row_num\":2},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"No\",\"default\":\"Não\"}}},\"_row_num\":3},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Don't know\",\"default\":\"Não sabe\"}}},\"_row_num\":4},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"9\",\"display\":{\"title\":{\"text\":{\"english\":\"Missing information\",\"default\":\"Falta informação\"}}},\"_row_num\":5}]"
+      },
+      {
+        "_partition": "Column",
+        "_aspect": "C_TEST1Q",
+        "_key": "displayChoicesList",
+        "_type": "object",
+        "_value": "[{\"choice_list_name\":\"TestType\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"TDR\",\"default\":\"TDR\"}}},\"_row_num\":7},{\"choice_list_name\":\"TestType\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"GE\",\"default\":\"GE\"}}},\"_row_num\":8},{\"choice_list_name\":\"TestType\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Leuko\",\"default\":\"Leuko\"}}},\"_row_num\":9},{\"choice_list_name\":\"TestType\",\"data_value\":\"4\",\"display\":{\"title\":{\"text\":{\"english\":\"Hb\",\"default\":\"Hb\"}}},\"_row_num\":10},{\"choice_list_name\":\"TestType\",\"data_value\":\"5\",\"display\":{\"title\":{\"text\":{\"english\":\"xx\",\"default\":\"xx\"}}},\"_row_num\":11},{\"choice_list_name\":\"TestType\",\"data_value\":\"8\",\"display\":{\"title\":{\"text\":{\"english\":\"Other\",\"default\":\"Outro\"}}},\"_row_num\":12}]"
+      },
+      {
+        "_partition": "Column",
+        "_aspect": "C_TEST1RESC",
+        "_key": "displayChoicesList",
+        "_type": "object",
+        "_value": "[{\"choice_list_name\":\"TestResult\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Positive\",\"default\":\"Positivo\"}}},\"_row_num\":14},{\"choice_list_name\":\"TestResult\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"Negative\",\"default\":\"Negativo\"}}},\"_row_num\":15},{\"choice_list_name\":\"TestResult\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Don't know yet\",\"default\":\"Ainda não sabe\"}}},\"_row_num\":16},{\"choice_list_name\":\"TestResult\",\"data_value\":\"4\",\"display\":{\"title\":{\"text\":{\"english\":\"Not categoric\",\"default\":\"Nao Categorico\"}}},\"_row_num\":17}]"
+      },
+      {
+        "_partition": "Column",
+        "_aspect": "C_TEST2",
+        "_key": "displayChoicesList",
+        "_type": "object",
+        "_value": "[{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Yes\",\"default\":\"Sim\"}}},\"_row_num\":2},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"No\",\"default\":\"Não\"}}},\"_row_num\":3},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Don't know\",\"default\":\"Não sabe\"}}},\"_row_num\":4},{\"choice_list_name\":\"YesNoUM\",\"data_value\":\"9\",\"display\":{\"title\":{\"text\":{\"english\":\"Missing information\",\"default\":\"Falta informação\"}}},\"_row_num\":5}]"
+      },
+      {
+        "_partition": "Column",
+        "_aspect": "C_TEST2Q",
+        "_key": "displayChoicesList",
+        "_type": "object",
+        "_value": "[{\"choice_list_name\":\"TestType\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"TDR\",\"default\":\"TDR\"}}},\"_row_num\":7},{\"choice_list_name\":\"TestType\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"GE\",\"default\":\"GE\"}}},\"_row_num\":8},{\"choice_list_name\":\"TestType\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Leuko\",\"default\":\"Leuko\"}}},\"_row_num\":9},{\"choice_list_name\":\"TestType\",\"data_value\":\"4\",\"display\":{\"title\":{\"text\":{\"english\":\"Hb\",\"default\":\"Hb\"}}},\"_row_num\":10},{\"choice_list_name\":\"TestType\",\"data_value\":\"5\",\"display\":{\"title\":{\"text\":{\"english\":\"xx\",\"default\":\"xx\"}}},\"_row_num\":11},{\"choice_list_name\":\"TestType\",\"data_value\":\"8\",\"display\":{\"title\":{\"text\":{\"english\":\"Other\",\"default\":\"Outro\"}}},\"_row_num\":12}]"
+      },
+      {
+        "_partition": "Column",
+        "_aspect": "C_TEST2RESC",
+        "_key": "displayChoicesList",
+        "_type": "object",
+        "_value": "[{\"choice_list_name\":\"TestResult\",\"data_value\":\"1\",\"display\":{\"title\":{\"text\":{\"english\":\"Positive\",\"default\":\"Positivo\"}}},\"_row_num\":14},{\"choice_list_name\":\"TestResult\",\"data_value\":\"2\",\"display\":{\"title\":{\"text\":{\"english\":\"Negative\",\"default\":\"Negativo\"}}},\"_row_num\":15},{\"choice_list_name\":\"TestResult\",\"data_value\":\"3\",\"display\":{\"title\":{\"text\":{\"english\":\"Don't know yet\",\"default\":\"Ainda não sabe\"}}},\"_row_num\":16},{\"choice_list_name\":\"TestResult\",\"data_value\":\"4\",\"display\":{\"title\":{\"text\":{\"english\":\"Not categoric\",\"default\":\"Nao Categorico\"}}},\"_row_num\":17}]"
+      },
       {
         "_partition": "FormType",
         "_aspect": "default",
