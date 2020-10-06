@@ -14,7 +14,10 @@ function loadPersons() {
     var varNames = "_id, C_DATE, C_NAME, C_NMENSAL, C_NUMEST"
     var sql = "SELECT " + varNames + 
         " FROM OPVCOVIDHC " +
-        " ORDER BY C_NUMEST";
+        " ORDER BY " +
+        " substr(C_DATE, instr(C_DATE, 'Y:')+2, 4) || " +
+        " substr('00'|| trim(substr(C_DATE, instr(C_DATE, 'M:')+2, 2),','), -2, 2) || " +
+        " substr('00'|| trim(substr(C_DATE, instr(C_DATE, 'D:')+2, 2),','), -2, 2)";
     persons = [];
     console.log("Querying database for included persons...");
     console.log(sql);
@@ -29,7 +32,6 @@ function loadPersons() {
             var C_NUMEST = result.getData(row,"C_NUMEST");
 
             var p = { type: 'person', rowId, C_DATE, C_NAME, C_NMENSAL, C_NUMEST};
-            console.log(p);
             persons.push(p);
         }
         console.log("loadPersons:", persons)
@@ -56,10 +58,13 @@ function populateView() {
         // set text to display
         var displayText = setDisplayText(that);
 
+        // id for btn
+        var btnId = this.rowId.slice(6);
+
         // list
-        ul.append($("<li />").append($("<button />").attr('id',this.C_NUMEST + this.C_NAME).attr('class', '' + ' btn ' + this.type).append(displayText)));
+        ul.append($("<li />").append($("<button />").attr('id',btnId).attr('class', '' + ' btn ' + this.type).append(displayText)));
                 
-        var btn = ul.find('#' + this.C_NUMEST + this.C_NAME);
+        var btn = ul.find('#' + btnId);
         btn.on("click", function() {
             openForm(that);
         })
@@ -69,15 +74,29 @@ function populateView() {
 function setDisplayText(person) {
     var date;
     if (person.C_DATE == "D:NS,M:NS,Y:NS" | person.C_DATE === null) {
-       date = "Não Sabe";
+       date = "Não sabe";
     } else {
        date = formatDate(person.C_DATE);
     }
- 
+    
+    var numest;
+    if (person.NUMEST == null) {
+        numest = "Não sabe";
+    } else {
+        numest = person.NUMEST;
+    }
+
+    var nmensal;
+    if (person.NMENSAL == undefined) {
+        nmensal = "Não sabe";
+    } else {
+        nmensal = person.NMENSAL;
+    }
+
     var displayText = "Data: " + date + "<br />" + 
         "Nome: " + person.C_NAME + "<br />" +
-        "Número de estudo: " + person.C_NUMEST + "<br />" +
-        "Número na livro: " + person.NMENSAL;
+        "Número de estudo: " + numest + "<br />" +
+        "Número na livro: " + nmensal;
     return displayText
  }
 
